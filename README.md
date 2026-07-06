@@ -9,7 +9,7 @@ malware family.
 **This repo covers my individual contribution to the project: the ML
 model development, training, and evaluation.** The full system also
 includes an API/processing pipeline, a web dashboard, and business-model
-work built by my teammates — those pieces aren't part of this repo.
+work built by my teammates. Those pieces aren't part of this repo.
 
 | Component | Contributor |
 |---|---|
@@ -58,7 +58,7 @@ Full per-class report: [`results/classifier_classification_report.txt`](results/
 
 ### Detector (binary)
 
-The detector's decision threshold trades precision against recall — raising
+The detector's decision threshold trades precision against recall, raising
 it cuts false alarms but misses more malware. We swept a range of
 thresholds to pick an operating point rather than defaulting to 0.5:
 
