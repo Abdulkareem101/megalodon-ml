@@ -1,0 +1,55 @@
+======================================================================
+34-CLASS MALWARE CNN - CLASSIFICATION REPORT
+======================================================================
+Model: malware_cnn_traced_34cls.pt
+Test Samples: 3032
+Date: 2025-10-25 19:52:00
+======================================================================
+
+Overall Accuracy: 0.9664 (96.64%)
+
+Malimg Accuracy: 0.9861 (98.61%)
+Google Accuracy: 0.9500 (95.00%)
+
+======================================================================
+
+                precision    recall  f1-score   support
+
+     Adialer.C       1.00      1.00      1.00        23
+     Agent.FYI       1.00      1.00      1.00        24
+     Allaple.A       1.00      1.00      1.00       441
+     Allaple.L       1.00      1.00      1.00       231
+ Alueron.gen!J       1.00      1.00      1.00        25
+     Autorun.K       1.00      1.00      1.00        15
+       C2LOP.P       0.80      1.00      0.89        12
+   C2LOP.gen!g       0.97      0.97      0.97        31
+Dialplatform.B       1.00      0.96      0.98        25
+     Dontovo.A       1.00      1.00      1.00        27
+      Fakerean       1.00      1.00      1.00        56
+ Instantaccess       1.00      1.00      1.00        64
+    Lolyda.AA1       1.00      1.00      1.00        37
+    Lolyda.AA2       1.00      1.00      1.00        32
+    Lolyda.AA3       1.00      0.94      0.97        16
+     Lolyda.AT       1.00      0.93      0.97        15
+   Malex.gen!J       1.00      1.00      1.00        23
+ Obfuscator.AD       1.00      1.00      1.00        27
+      Rbot!gen       1.00      1.00      1.00        16
+    Skintrim.N       1.00      1.00      1.00        18
+ Swizzor.gen!E       0.58      0.47      0.52        15
+ Swizzor.gen!I       0.59      0.59      0.59        17
+         VB.AT       0.98      1.00      0.99        47
+    Wintrim.BX       1.00      1.00      1.00        13
+       Yuner.A       1.00      1.00      1.00       121
+        Ramnit       0.85      0.91      0.88       234
+      Lollipop       0.96      0.96      0.96       397
+  Kelihos_ver3       0.99      1.00      1.00       416
+         Vundo       1.00      0.97      0.99        76
+         Simda       0.67      0.67      0.67         3
+        Tracur       0.91      0.95      0.93       117
+  Kelihos_ver1       1.00      0.89      0.94        71
+Obfuscator.ACY       0.95      0.89      0.92       184
+         Gatak       0.95      0.93      0.94       163
+
+      accuracy                           0.97      3032
+     macro avg       0.95      0.94      0.94      3032
+  weighted avg       0.97      0.97      0.97      3032

@@ -1,0 +1,25 @@
+# Model weights (large binaries - see README for hosting link)
+*.pt
+*.pth
+*.h5
+
+# Datasets
+data/
+*.png
+*.jpg
+!results/**/*.png
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Results generated at runtime
+evaluation_results*/
+detector_results*/
+test_results*/
+artifacts/
+
+# OS/editor cruft
+.DS_Store
+.vscode/

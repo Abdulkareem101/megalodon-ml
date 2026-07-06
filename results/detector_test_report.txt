@@ -1,0 +1,45 @@
+======================================================================
+MALWARE DETECTOR - TEST REPORT
+======================================================================
+
+Model: malware_detector_refined_best.pt
+Test Date: 2025-11-04 07:02:28
+Test Images: 208,879
+
+Overall Accuracy: 86.90%
+
+Per-Class Metrics:
+----------------------------------------------------------------------
+benign:
+   Precision: 0.5806
+   Recall:    0.8606
+   F1-Score:  0.6934
+   Support:   35,945
+
+malware:
+   Precision: 0.9678
+   Recall:    0.8708
+   F1-Score:  0.9167
+   Support:   172,934
+
+
+Confusion Matrix:
+----------------------------------------------------------------------
+True Negatives:  30,936
+False Positives: 5,009
+False Negatives: 22,346
+True Positives:  150,588
+
+ROC AUC: 0.9428
+
+
+Detailed Classification Report:
+======================================================================
+              precision    recall  f1-score   support
+
+      benign     0.5806    0.8606    0.6934     35945
+     malware     0.9678    0.8708    0.9167    172934
+
+    accuracy                         0.8690    208879
+   macro avg     0.7742    0.8657    0.8051    208879
+weighted avg     0.9012    0.8690    0.8783    208879
